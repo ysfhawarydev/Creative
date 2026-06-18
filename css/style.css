@@ -1,0 +1,90 @@
+header {
+  height: 100vh;
+  background-image: url(../images/header.jpeg);
+}
+
+.hover {
+  transition: all 0.3s;
+}
+
+.hover:hover {
+  color: red !important;
+}
+
+.line {
+  position: relative;
+}
+
+.line::before {
+  content: '';
+  height: 4px;
+  background-color: brown;
+  width: 100px;
+  bottom: 0;
+  left: 45%;
+  border-radius: 40px;
+  position: absolute;
+}
+
+.line1 {
+  position: relative;
+}
+
+.line1::before {
+  content: '';
+  height: 4px;
+  background-color: white;
+  width: 100px;
+  bottom: -10px;
+  left: 46%;
+  border-radius: 40px;
+  position: absolute;
+}
+
+#about {
+  padding: 7rem;
+}
+
+.font {
+  font-size:3rem;
+}
+
+.buttonHover {
+  transition:all 0.3s;
+}
+
+.buttonHover1 {
+  transition:all 0.3s;
+}
+
+.buttonHover1:hover {
+  background-color:gray !important;
+}
+
+.padding {
+  padding-block:7rem;
+}
+
+
+.line2 {
+  position: relative;
+}
+
+.line2::before {
+  content: '';
+  height: 4px;
+  background-color: brown;
+  width: 60px;
+  bottom: -25px;
+  left: 48%;
+  border-radius: 40px;
+  position: absolute;
+}
+
+.padding1 {
+  padding-top:7rem;
+}
+
+.i {
+  font-size:3rem;
+}

@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Youssef Elhawary" />
+    <meta name="description" content="This is Bootstrap Project called Creative" />
+    <meta name="keywords" content="Bootstrap, Project, Creative" />
+    <meta name="robots" content="index, imageindex, archive, follow" />
+    <title>Creative</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/all.min.css">
+  </head>
+
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg bg-body-tertiary position-fixed z-1000 w-100 bg-light z-3"
+      >
+        <div class="container">
+          <a class="navbar-brand hover" href="#">Start Bootstrap</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active hover" aria-current="page" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hover" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hover" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hover" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container text-light d-flex justify-content-center text-center h-100">
+        <div
+          class="w-50 d-flex justify-content-center align-items-center flex-column flex-wrap gap-5"
+        >
+          <h1 class="pb-4 line font">Your Favorite Place for Free Bootstrap Themes</h1>
+          <p>
+            Start Bootstrap can help you build better websites using the Bootstrap framework! Just
+            download a theme and start customizing, no strings attached!
+          </p>
+          <button class="btn btn-danger px-5 rounded-5 py-3 buttonHover">FIND OUT MORE</button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="about" class="bg-danger text-center">
+        <h2 class="line1 text-light p-3">We've got what you need!</h2>
+        <p class="text-light opacity-50 p-4">
+          Start Bootstrap has everything you need to get your new website up and running in no time!
+          Choose one of our open source, free to download, and easy to use themes! No strings
+          attached!
+        </p>
+        <a href="#services" class="btn bg-light-subtle rounded-5 py-3 p-3 buttonHover1"
+          >GET STARTED!</a
+        >
+      </section>
+      <section id="services" class="text-center padding">
+        <h2 class="line2">At Your Service</h2>
+        <div class="container text-center padding1">
+          <div class="row row-cols-lg-4 row-cols-md-2 row-cols-sm-1">
+            <div class="col">
+              <i class="fa-regular fa-gem p-3 i text-danger"></i>
+              <h3>Sturdy Themes</h3>
+              <p>Our themes are updated regularly to keep them bug free!</p>
+            </div>
+            <div class="col">
+              <i class="fa-solid fa-tv p-3 i text-danger"></i>
+              <h3>Up To Date</h3>
+              <p>All dependencies are kept current to keep things fresh.</p>
+            </div>
+            <div class="col">
+              <i class="fa-solid fa-globe p-3 i text-danger"></i>
+              <h3>Ready to Publish</h3>
+              <p>You can use this design as is, or you can make changes!</p>
+            </div>
+            <div class="col">
+              <i class="fa-regular fa-heart p-3 i text-danger"></i>
+              <h3>Made with Love</h3>
+              <p>Is it really open source if it's not made with love?</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/all.min.js"></script>
+</html>
